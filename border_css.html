@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style >
+		.border{
+			border-style: solid;	/*dotted,dashed,double,inset,outset,groove,ridge*/
+			border-color:blue;
+			border-width: 5px;
+			border-top-right-radius: 20px;
+					}
+		.border2{
+			border-left-style: dotted;
+			border-right-style: inset;
+			border-top-style: groove;
+			border-bottom-style: ridge;
+			border-left-color: green;
+			border-right-color: blue;
+			border-top-color: red;
+			border-bottom-color: black;
+			height: 150px;
+			width: 150px;
+			border-width: 10px;
+			border-radius: 60%;
+			padding: 33px;
+		}
+		.test2{
+			height: 150px;
+			width: 150px;
+			background: rgba(255,0,0,0.3);
+			border-top-right-radius: 20px;
+			padding: 30px;
+			margin: 50px auto;  /*margin auto dile auto niye nibe majer jonno*/
+		}
+		.test3{
+			height: 200px;
+			width: 200px;
+			border-radius: 20px 30px 40px;
+			background: green;
+			padding: 20px;
+		}
+		.t4{
+			border:50px solid transparent;
+			border-image: url(assets/img/images.png);
+			border-image-slice: 60;
+			border-image-repeat: round;
+		}
+		.t5{
+			border:15px solid ;
+			border-image:linear-gradient(orange,green,blue,red);
+			border-image-slice: 60;
+			padding: 30px;
+			height: 200px;
+			width: 200px;
+			outline: 8px dashed blue;
+			outline-offset: 5px;
+
+		}
+	</style>
+</head>
+<body>
+	<p class="border">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore rem, provident saepe veritatis, sint earum asperiores sed dolore libero molestias possimus ex velit odio perspiciatis. Fugit tempora est, amet iste!</p>
+
+	<p class="border2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. ex velit odio perspiciatis. Fugit tempora est, amet iste!</p>
+	<hr>
+	<div class="test2">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolor?
+	</div>
+	<div class="test3">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolor?
+	</div>
+
+
+	<div class="t4" align="center">
+		Hridoy
+	</div>
+	<br><br>
+	<div class="t5">
+		CSS Gradient Border.
+	</div>
+</body>
+</html>

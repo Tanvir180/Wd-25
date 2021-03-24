@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style >
+		.t1{
+			height: 400px;
+			width: 100%;
+			background-image: url(assets/img/download.png),url(assets/img/download.png),url(assets/img/download.png),url(assets/img/download.png),url(assets/img/download.png);
+			background-position: right top ,left top,right bottom, left bottom,center;
+			background-repeat: no-repeat;
+			border:2px solid red;
+		}
+		div{
+			height: 200px;
+			width: 200px;
+			background: blue;
+			margin: 10px;
+			border:3px dotted red;
+			padding: 30px;
+		}
+		.border_box{
+			background-clip: border-box;
+		}
+		.padding_box{
+			background-clip: padding-box;
+		}
+		.content_box{
+			background-clip: content-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="t1">
+		<p>
+			
+		</p>
+	</div>
+	<br>
+	<hr>
+	<div class="border_box">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, delectus, dolores minus, distinctio placeat quibusdam optio ipsum sapiente qui quo dolor minima. Fugit eligendi debitis excepturi quia eaque minus quaerat.
+		</p>
+	</div>
+	<div class="padding_box">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, delectus, dolores minus, distinctio placeat quibusdam optio ipsum sapiente qui quo dolor minima. Fugit eligendi debitis excepturi quia eaque minus quaerat.
+		</p>
+	</div><div class="content_box">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, delectus, dolores minus, distinctio placeat quibusdam optio ipsum sapiente qui quo dolor minima. Fugit eligendi debitis excepturi quia eaque minus quaerat.
+		</p>
+	</div>
+</body>
+</html>

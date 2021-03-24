@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		Subject: <br>
+				 <input type="checkbox" name="bangla" id="bangla"><label for="bangla">Bangla</label>
+				 <input type="checkbox" name="English" id="eng"><label for="eng">English</label>
+				 <input type="checkbox" name="Math" id="">Math
+				 <input type="checkbox" name="Ict" id="">Ict<br><br>
+
+				<!--  label use er subida holo eti use korle bangla er upor vlick korlei ota select hobe kintu ict ba math e hobe na  -->
+
+		Gender:<br>
+				<input type="radio" name="gender" id="male"><label for="male">Male</label>
+				<input type="radio" name="gender" id="female"><label for="female">Female</label><br>
+				<!-- ekhane radio te name same but checkbox e name alada -->
+
+		<label for="country">Country</label>
+			<select name="country" id="country">
+				<option value="ban">Bangladesh</option>
+				<option value="ind">India</option>
+				<option value="aus">Australia</option>
+			</select><br><br>
+
+		<label for="image">Upload Image</label>
+		<input type="file" name="image" id="image">
+		
+		<input type="hidden" name="id" value="10"><br>
+		<!-- eta browser e dekhabe na kintu maje maje dynamic kaj korte gele lage -->
+
+		<input type="button" value="Click">
+		<input type="submit" value="Submit" name="submit">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>

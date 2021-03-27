@@ -4,16 +4,18 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="assets/icon/css/font-awesome.min.css">
 	<style type="text/css">
 		body{
 			background: rgba(0,0,0,.2);
-			padding-left: 650px;
-
+			
+			align-content: center;
 		    font-weight: bold;
 		    font-style: italic;
 		}
 		form{
-			
+
+			/*padding-left: 650px;*/
 			background: Aqua;
 			height: 600px;
 			width: 600px;
@@ -31,9 +33,87 @@
 			background: white;
 			border-radius: 50%;
 		}
+		
+	
+		ul{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			height: 150px;
+			background: #c7c7c7;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		ul li{
+			height: 80px;
+			width: 80px;
+			background: #fff;
+			color: #000;
+			border-radius: 50%;
+			margin-left: 20px;
+			text-align: center;
+			line-height: 80px;
+			font-size: 40px;
+			
+		}
+		ul li:first-child{
+			margin: 0;
+			background: #3B5998 !important;
+			color: #fff !important;
+ 
+		}
+		li:nth-child(2){
+			
+			background: #DB473A !important;
+			color: #fff !important;
+ 
+		}
+		li:nth-child(3){
+			
+			background: #00ABF5;
+			color: #fff !important;
+ 
+		}
+		li:nth-child(4){
+			
+			background: linear-gradient(#743CA8,#DF1639,#F6D101 ) !important;
+			color: #fff !important;
+ 
+		}
+		li:last-child{
+			
+			background: #44C052 !important;
+			color: #fff !important;
+ 
+		}
+		li:hover{
+			cursor: pointer;
+			box-shadow: 5px 10px 15px #000; 
+			/* first er ta left to right , 2nd top to bottom ,3rd blur,4th color*/
+			transition: 1s all;
+			transform: rotate(360deg);
+		}
+		footer{
+			 
+			border: 3px solid white;
+			border-color: #FFDC70 !important;
+		    
+		}
+		.f{
+			position: relative;
+			left: 550px;
+		}
+		.f2{
+			position: relative;
+			top:200px;
+			
+		}
+	
 	</style>
 </head>
 <body >
+	<div class="f">
 	<form align="center" >
 	
     	    
@@ -61,5 +141,17 @@
         
    
     </form>
+    </div>
+<div class="f2">
+<footer>
+    <ul class="main">
+		<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+		<li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+		<li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+		<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+		<li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+	</ul>
+	</footer>
+	</div>
 </body>
 </html>
